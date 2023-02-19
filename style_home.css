@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display&display=swap');
+#vid{
+    position :fixed;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+
+
+}
+#vid1{
+    position :fixed;
+    bottom: 0;
+    right: 0;
+    min-height: 100%;
+    min-width: 100%;
+
+
+}
+#vid2{
+    position :fixed;
+    border-radius: 20px;
+    border:solid 1px violet;
+    top: 57%;
+    left:12%;
+    width:35%;
+}
+.intro{
+    position: fixed;
+    top: 70px;
+    left: 0;
+    background-image: linear-gradient(to bottom, rgb(18, 10, 99) , rgb(85, 14, 135));
+    width: 100%;
+    padding-left: 0px;
+    margin: 0;
+}
+.int{
+    position: fixed}
+h1{
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(232, 132, 255);
+    font-weight: 2000;
+    padding-left: 190px;
+    font-size: 70px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.intro p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 190px;
+    font-family: 'Lobster',cursive;
+    font-size: 25px;
+    font-weight: 900;
+    color:rgb(255, 255, 255);
+}
+span{
+    font-family: cursive;
+    font-weight: 500;
+    color: rgb(255, 128, 0);
+}
+/* .nav{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: rgba(123, 55, 213, 0.132);
+    margin: 0px;
+    padding: 0px;
+    font-weight: 900;
+    text-decoration: overline;
+    text-decoration-color: bisque;
+    color: beige;
+} */
+.hello{
+    position: fixed;
+    bottom: 54%;
+    margin: 0px;
+    background-color: rgba(255, 255, 255, 0);
+    left: 0;
+    padding: 0px;
+}
+#helllo{
+    font-size: 35px;
+    font-family: 'Lobster';
+    color: rgb(244, 228, 12) ;
+}
+#quote{
+    font-size: larger;
+    font-family: 'Playfair Display';
+
+}
+.intro a{
+    margin: 76px;
+    text-decoration: overline;
+    text-decoration-color: bisque;
+    color: rgb(225, 239, 142);
+}
+#explore:hover{
+    color: black;
+    text-decoration-color: whitesmoke;
+}
+#home:hover{
+    color: black;
+    text-decoration-color: whitesmoke;
+}
+#Achievements:hover{
+    color: black;
+    text-decoration-color: whitesmoke;
+}
+#contact:hover{
+    color: black;
+    text-decoration-color: whitesmoke;
+}
+.button{
+    position:fixed;
+    bottom: 48%;
+    text-decoration: none;
+    background-color: rgba(234, 169, 50, 0.352);
+    border: 1px;
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color: black;
+    margin-left: 190px;
+}
+.button :hover{
+    background-color: rgba(237, 237, 225, 0.575);
+    color: rgb(0, 0, 0);
+}
+#image{
+    position :fixed;
+    width: 150px;
+    top: 8px;
+    left: 5px;
+}
+nav{
+    z-index: 10;
+}
+
+
